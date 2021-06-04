@@ -9,7 +9,7 @@ interface PhoneInterface{           // 인터페이스 선언
 }
 
 class SamsungPhone implements PhoneInterface {
-	// 추상은 상속받거나 implements 하려면 메서드 내용을 작성해주어야 한다.
+	// 추상은 상속받거나 구현하려면 메서드 내용을 작성해주어야 한다.
 
 	@Override
 	public void sendCall() {
